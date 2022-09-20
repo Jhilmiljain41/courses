@@ -1,0 +1,24 @@
+body{
+    justify-content: center;
+    position: relative;
+  }
+#cards,.banner,.content{
+    max-width: 1200px;
+}
+#cards .div1{
+    width: 40%;
+}
+#cards .card-text{
+    font-size: 12px;
+}
+#cards .card-title{
+    height: 50px;
+}
+@media screen and (min-width: 1200px) {
+    body,#cards,.banner,.content{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+  }
