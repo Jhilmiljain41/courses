@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/script.js" type="text/javascript"></script>
 </head>
 
 <body class="">
@@ -211,106 +213,170 @@
   </section>
   <section id="cards-section">
     <div id="cards" class="my-3">
-      <div class="text-center d-flex justify-content-center">
-        <div class="div1 mt-4">
-          <h6>Filter courses by name</h6>
-        <input class="form-control" type="text" placeholder="Search for example react,node,redis,nodexpress,etc..." aria-label="default input example">
-        </div>
-      </div>
       <div class="" style="width: 85%; margin:auto;">
         <div class="cards1">
           <div class="d-flex justify-content-between mt-5">
-            <h4 class="m-2 pb-2 text-left" style="color:#141c36;">New Releases</h4>
-          <button class=" m-3 btn btn-success float-right">View all</button>
+            <h4 class="m-2 pb-2 text-start" style="color:#141c36;">New Releases</h4>
+          <a href="view.html" class=" m-3 btn btn-success float-right">View all</a>
           </div>
-          <div class="container-fluid mb-2">
-            <div class="row text-start">
-              <div class="col-md-4">
-                <a href="open.html"><div class="card">
-                  <img src="images/img1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Data Science with R programming</h5>
-                    <p class="card-text mb-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
-                        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
-                      </svg>25k enrolled</p>
-                      <p class="card-text mb-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                        </svg>Weekend/weekdays</p>
-                      <p class="card-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
-                        </svg>Live classes</p>
-                      <p class="fst-italic text-secondary card-text mb-0">Reviews</p>
-                      <div class="d-flex">
-                        <div class="ratings" style="color: yellow;">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                         </div>
-                         <p class="ps-2 mb-0">2.8(5000)</p>
+          <div class="container-fluid text-start">
+            <div class="slider"style="">
+              <div class="owl-carousel">
+                <div class="slider-card my-3 mx-2">
+                  <div class="mb-4">
+                    <a href="open.html"><div class="card">
+                      <img src="images/img1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Data Science with R programming</h5>
+                        <p class="card-text mb-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                          </svg>25k enrolled</p>
+                          <p class="card-text mb-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>Weekend/weekdays</p>
+                          <p class="card-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                            </svg>Live classes</p>
+                          <p class="fst-italic text-secondary card-text mb-0">Reviews</p>
+                          <div class="d-flex">
+                            <div class="ratings" style="color: yellow;">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                             </div>
+                             <p class="ps-2 mb-0">2.8(5000)</p>
+                          </div>
                       </div>
+                    </div></a>
                   </div>
-                </div></a>
-              </div>
-              <div class="col-md-4">
-                <a href="open.html"><div class="card">
-                  <img src="images/img2.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Python Machine Learning</h5>
-                    <p class="card-text mb-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
-                        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
-                      </svg>25k enrolled</p>
-                      <p class="card-text mb-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                        </svg>Weekend/weekdays</p>
-                      <p class="card-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
-                        </svg>Live classes</p>
-                      <p class="fst-italic text-secondary mb-0 card-text">Reviews</p>
-                      <div class="d-flex">
-                        <div class="ratings" style="color: yellow;">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                         </div>
-                         <p class="ps-2 mb-0">2.8(5000)</p>
+                </div>
+                <div class="slider-card my-3 mx-2">
+                  <div class="mb-4">
+                    <a href="open.html"><div class="card">
+                      <img src="images/img1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Data Science with R programming</h5>
+                        <p class="card-text mb-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                          </svg>25k enrolled</p>
+                          <p class="card-text mb-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>Weekend/weekdays</p>
+                          <p class="card-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                            </svg>Live classes</p>
+                          <p class="fst-italic text-secondary card-text mb-0">Reviews</p>
+                          <div class="d-flex">
+                            <div class="ratings" style="color: yellow;">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                             </div>
+                             <p class="ps-2 mb-0">2.8(5000)</p>
+                          </div>
                       </div>
+                    </div></a>
                   </div>
-                </div></a>
-              </div>
-              <div class="col-md-4">
-                <a href="open.html"><div class="card">
-                  <img src="images/img3.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Programming with R</h5>
-                    <p class="card-text mb-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
-                      <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
-                    </svg>25k enrolled</p>
-                    <p class="card-text mb-0">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                      </svg>Weekend/weekdays</p>
-                    <p class="card-text">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
-                      </svg>Live classes</p>
-                    <p class="fst-italic text-secondary mb-0 card-text">Reviews</p>
-                    <div class="d-flex">
-                      <div class="ratings" style="color: yellow;">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                       </div>
-                       <p class="ps-2 mb-0">2.8(5000)</p>
-                    </div>
+                </div>
+                <div class="slider-card my-3 mx-2">
+                  <div class="mb-4">
+                    <a href="open.html"><div class="card">
+                      <img src="images/img2.svg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Python Machine Learning</h5>
+                        <p class="card-text mb-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                          </svg>25k enrolled</p>
+                          <p class="card-text mb-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>Weekend/weekdays</p>
+                          <p class="card-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                            </svg>Live classes</p>
+                          <p class="fst-italic text-secondary mb-0 card-text">Reviews</p>
+                          <div class="d-flex">
+                            <div class="ratings" style="color: yellow;">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                             </div>
+                             <p class="ps-2 mb-0">2.8(5000)</p>
+                          </div>
+                      </div>
+                    </div></a>
                   </div>
-                </div></a>
+                </div>
+                <div class="slider-card my-3 mx-2">
+                  <div class="mb-4">
+                    <a href="open.html"><div class="card">
+                      <img src="images/img3.svg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Programming with R</h5>
+                        <p class="card-text mb-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
+                          <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                        </svg>25k enrolled</p>
+                        <p class="card-text mb-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                          </svg>Weekend/weekdays</p>
+                        <p class="card-text">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                          </svg>Live classes</p>
+                        <p class="fst-italic text-secondary mb-0 card-text">Reviews</p>
+                        <div class="d-flex">
+                          <div class="ratings" style="color: yellow;">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                           </div>
+                           <p class="ps-2 mb-0">2.8(5000)</p>
+                        </div>
+                      </div>
+                    </div></a>
+                  </div>
+                </div>
+                <div class="slider-card my-3 mx-2">
+                  <div class="mb-4">
+                    <a href="open.html"><div class="card">
+                      <img src="images/img2.svg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Python Machine Learning</h5>
+                        <p class="card-text mb-0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill text-secondary me-2" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                          </svg>25k enrolled</p>
+                          <p class="card-text mb-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                            </svg>Weekend/weekdays</p>
+                          <p class="card-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video-fill text-secondary me-2" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                            </svg>Live classes</p>
+                          <p class="fst-italic text-secondary mb-0 card-text">Reviews</p>
+                          <div class="d-flex">
+                            <div class="ratings" style="color: yellow;">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                             </div>
+                             <p class="ps-2 mb-0">2.8(5000)</p>
+                          </div>
+                      </div>
+                    </div></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -318,7 +384,7 @@
         <div class="cards2">
           <div class="d-flex justify-content-between mt-5">
             <h4 class="m-2 pb-2 text-left" style="color:#141c36;">Web2.0</h4>
-          <button class=" m-3 btn btn-success float-right">View all</button>
+            <a href="view.html" class=" m-3 btn btn-success float-right">View all</a>
           </div>
           <div class="container-fluid mb-2">
             <div class="row text-start">
@@ -386,7 +452,7 @@
         <div class="cards3">
           <div class="d-flex justify-content-between mt-5">
             <h4 class="m-2 pb-2 text-left" style="color:#141c36;">Full Stack Development</h4>
-          <button class=" m-3 btn btn-success float-right">View all</button>
+          <a href="view.html" class=" m-3 btn btn-success float-right">View all</a>
           </div>
           <div class="container-fluid mb-2">
             <div class="row  text-start">
@@ -483,7 +549,7 @@
         <div class="cards4">
           <div class="d-flex justify-content-between mt-5">
             <h4 class="m-2 pb-2 text-left" style="color:#141c36;">Frontend Development</h4>
-          <button class=" m-3 btn btn-success float-right">View all</button>
+          <a href="view.html" class=" m-3 btn btn-success float-right">View all</a>
           </div>
           <div class="container-fluid mb-2">
             <div class="row row-cols-lg-3 text-start">
@@ -522,7 +588,7 @@
         <div class="cards5">
           <div class="d-flex justify-content-between mt-5">
             <h4 class="m-2 pb-2 text-left" style="color:#141c36;">Python</h4>
-          <button class=" m-3 btn btn-success float-right">View all</button>
+          <a href="view.html" class=" m-3 btn btn-success float-right">View all</a>
           </div>
           <div class="container-fluid mb-2">
             <div class="row row-cols-lg-3 text-start">
@@ -561,93 +627,97 @@
       </div>
     </div>
   </section>
-  <section id="footer">
-      <div class="footer-section" style="margin-top: 50px; font-size: 17px;">
-        <div class="container-fluid">
-          <div class="d-flex foot flex-row flex-wrap justify-content-center">
-            <div class="ms-md-2 me-3 flex-fill">
-              <img src="images/Learning-Vertos-logo-White.jpg" alt="" width="auto" height="60px">
-              <div class="mt-3">
-                <button type="button" class="btn btn-primary rounded-circle btn-floating mx-1" style="font-size: 20px;">
-                <i class="fa fa-facebook-f"></i>
-              </button>
-          
-              <button type="button" class="btn btn-primary rounded-circle btn-floating mx-1" style="font-size: 20px;">
-                <i class="fa fa-google"></i>
-              </button>
-          
-              <button type="button" class="btn btn-primary rounded-circle btn-floating mx-1" style="font-size: 20px;">
-                <i class="fa fa-twitter"></i>
-              </button>
-          
-              <button type="button" class="btn btn-primary rounded-circle btn-floating mx-1" style="font-size: 20px;">
-                <i class="fa fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="ms-md-2 mt-3 flex-fill">
-              <ul class="list-unstyled text-secondary text-start">
-                <li class="Learn text-dark fw-bold">Company</li>
-                <li class=""><a href="">About us</a></li>
-                <li class=""><a href="">Customer Stories</a></li>
-                <li class=""><a href="">Careers </a></li>
-                <li class=""><a href="">Blogs</a></li>
-                <li class=""><a href="">Newsletters</a></li>
-              </ul>
-            </div>
-            <div class="ms-md-2 mt-3 flex-fill">
-              <ul class="list-unstyled text-secondary text-start">
-                <li class="Learn text-dark fw-bold">Learn</li>
-                <li class=""><a href="">Web development</a></li>
-                <li class=""><a href="">Data Science</a></li>
-                <li class=""><a href="">Computer  Science</a></li>
-                <li class=""><a href="">Development Tools</a></li>
-                <li class=""><a href="">Machine Learning</a></li>
-              </ul>
-            </div>
-            <div class="ms-md-2 mt-3 flex-fill">
-              <ul class="list-unstyled text-secondary text-start">
-                <li class="Learn text-dark fw-bold">Certification</li>
-                <li class=""><a href="">Web development</a></li>
-                <li class=""><a href="">Data Science</a></li>
-                <li class=""><a href="">Computer  Science</a></li>
-                <li class=""><a href="">Development Tools</a></li>
-                <li class=""><a href="">Machine Learning</a></li>
-              </ul>
-            </div>
-            <div class="ms-md-2 mt-3 flex-fill">
-              <ul class="list-unstyled text-secondary text-start">
-                <li class="Learn text-dark fw-bold">Resources</li>
-                <li class=""><a href="">Contact</a></li>
-                <li class=""><a href="">Help Center</a></li>
-                <li class=""><a href="">FAQs</a></li>
-                <li class=""><a href="">Forums</a></li>
-                <li class=""><a href="">Sitemap</a></li>
-              </ul>
-            </div>
-            <div class="ms-md-2 mt-3 flex-fill">
-              <ul class="list-unstyled text-secondary text-start">
-                <li class="Learn text-dark fw-bold">Support</li>
-                <li class=""><a href="">Contact</a></li>
-                <li class=""><a href="">Help Center</a></li>
-                <li class=""><a href="">FAQs</a></li>
-                <li class=""><a href="">Forums</a></li>
-                <li class=""><a href="">Sitemap</a></li>
-              </ul>
+  <section id="footer" style="background-color: #141c36;">
+    <div class="footer-section" style="padding-top: 30px; margin-top: 30px; font-size: 17px; ">
+      <div class="container-fluid">
+        <div class="d-flex foot flex-row flex-wrap justify-content-center">
+          <div class="ms-md-2 me-3 flex-fill">
+            <img src="images/Learning-Vertos-logo-White.jpg" alt="" width="auto" height="60px">
+            <div class="mt-3">
+              <button type="button" class="btn btn-light rounded-circle btn-floating mx-1" style="font-size: 20px;">
+              <i class="fa fa-facebook-f"></i>
+            </button>
+        
+            <button type="button" class="btn btn-light rounded-circle btn-floating mx-1" style="font-size: 20px;">
+              <i class="fa fa-google"></i>
+            </button>
+        
+            <button type="button" class="btn btn-light rounded-circle btn-floating mx-1" style="font-size: 20px;">
+              <i class="fa fa-twitter"></i>
+            </button>
+        
+            <button type="button" class="btn btn-light rounded-circle btn-floating mx-1" style="font-size: 20px;">
+              <i class="fa fa-github"></i>
+            </button>
             </div>
           </div>
-        </div>
-        <hr>
-        <div class="container-fluid">
-          <div class="terms row text-secondary mb-2" style="font-size: 16px;">
-            <p class="mb-0 mt-1 col-sm-12 col-md-4">Copywrite @2022 Learning Vertos Private limited</p>
-            <p class="mb-0 mt-1 col-6 col-md-2 fw-bold text-dark">Terms of Use</p>
-            <p class="mb-0 mt-1 col-6 col-md-2 fw-bold text-dark">Privacy Notice</p>
-            <p class="mb-0 mt-1 col-6 col-md-2 fw-bold text-dark">Refunds</p>
-            <p class="mb-0 mt-1 col-6 col-md-2 fw-bold text-dark">Cookie Notice</p>
+          <div class="ms-md-2 mt-3 flex-fill">
+            <ul class="list-unstyled text-white text-start">
+              <li class="Learn fw-bold">Company</li>
+              <li class=""><a href="">About us</a></li>
+              <li class=""><a href="">Customer Stories</a></li>
+              <li class=""><a href="">Careers </a></li>
+              <li class=""><a href="">Blogs</a></li>
+              <li class=""><a href="">Newsletters</a></li>
+            </ul>
+          </div>
+          <div class="ms-md-2 mt-3 flex-fill">
+            <ul class="list-unstyled text-white text-start">
+              <li class="Learn fw-bold">Learn</li>
+              <li class=""><a href="">Web development</a></li>
+              <li class=""><a href="">Data Science</a></li>
+              <li class=""><a href="">Computer  Science</a></li>
+              <li class=""><a href="">Development Tools</a></li>
+              <li class=""><a href="">Machine Learning</a></li>
+            </ul>
+          </div>
+          <div class="ms-md-2 mt-3 flex-fill">
+            <ul class="list-unstyled text-white text-start">
+              <li class="Learn fw-bold">Certification</li>
+              <li class=""><a href="">Web development</a></li>
+              <li class=""><a href="">Data Science</a></li>
+              <li class=""><a href="">Computer  Science</a></li>
+              <li class=""><a href="">Development Tools</a></li>
+              <li class=""><a href="">Machine Learning</a></li>
+            </ul>
+          </div>
+          <div class="ms-md-2 mt-3 flex-fill">
+            <ul class="list-unstyled text-white text-start">
+              <li class="Learn fw-bold">Resources</li>
+              <li class=""><a href="">Contact</a></li>
+              <li class=""><a href="">Help Center</a></li>
+              <li class=""><a href="">FAQs</a></li>
+              <li class=""><a href="">Forums</a></li>
+              <li class=""><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="ms-md-2 mt-3 flex-fill">
+            <ul class="list-unstyled text-white text-start">
+              <li class="Learn fw-bold">Support</li>
+              <li class=""><a href="">Contact</a></li>
+              <li class=""><a href="">Help Center</a></li>
+              <li class=""><a href="">FAQs</a></li>
+              <li class=""><a href="">Forums</a></li>
+              <li class=""><a href="">Sitemap</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+      <hr>
+      <div class="container-fluid">
+        <div class="terms row text-white mb-2" style="font-size: 16px;">
+          <p class="mb-0 mt-1 col-sm-12 col-md-4">Copywrite @2022 Learning Vertos Private limited</p>
+          <p class="mb-0 mt-1 col-6 col-md-2 fw-bold">Terms of Use</p>
+          <p class="mb-0 mt-1 col-6 col-md-2 fw-bold">Privacy Notice</p>
+          <p class="mb-0 mt-1 col-6 col-md-2 fw-bold">Refunds</p>
+          <p class="mb-0 mt-1 col-6 col-md-2 fw-bold">Cookie Notice</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
   </html>
