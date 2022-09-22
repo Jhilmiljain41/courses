@@ -120,7 +120,7 @@ p{
 .bullet {
     list-style: inside url(../images/bullets.svg);
 }
-ul li {
+.content-section ul li {
     margin-bottom: 1rem;
 }
 @media (min-width: 768px){

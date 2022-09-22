@@ -69,7 +69,6 @@ body{
         justify-content: center;
     }
   }
-  #footer a{
-    text-decoration: none;
-    color: white;
-    }
+.view-card .card{
+  margin-bottom: 24px;
+}
