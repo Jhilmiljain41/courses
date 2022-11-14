@@ -2,177 +2,86 @@ p{
     font-size: 1.125rem!important;
     line-height: 1.75rem!important;
 }
-.program-logo {
-    height: 3rem;
+.course-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    max-width: 62%;
+    margin-right: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
 }
-.custom{
-    line-height: 32px;
-    color: #fcbf07;
+.course-sidebar {
+    max-width: 396px;
 }
-@media (min-width: 768px){
-.banner-content {
-    width: 75%;
+.hide{
+    display: none;
 }
+#formCard{
+    position: sticky;
+    top: 80px;
+    padding: 60px 32px 25px;
 }
-.soff {
-    margin-left: 8.33%;
-}
-@media (min-width: 768px){
-.soff {
-    margin-left: 5.25rem;
-    margin-right: 5.25rem;
-}
-}
-.star {
-    flex: 25%;
+.banner-section{
     position: relative;
-    display: inline-block;
-    color: red;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-bottom: 9px solid gold;
-    border-left: 12px solid transparent;
-    transform: rotate(35deg);
-}
-.star:before {
-    border-bottom: 9px solid gold;
-    border-left: 4px solid transparent;
-    border-right: 5px solid transparent;
+    background: no-repeat center center;
+    background-size: 100% 500px;
+    background-image: url(../images/background.jpeg);
+    background-position-x: left;
+    background-position-y: top;
+  }
+  .course-preview-filter {
     position: absolute;
-    height: 0;
-    width: 0;
-    top: -5px;
-    left: -7px;
-    display: block;
-    content: '';
-    transform: rotate(-32deg);
+    border-radius: 20px;
+    left: 8%;
+    bottom: -10%;
+    opacity: 0.8;
+    width:500px;
+    height:345px;
+    top: 20%;
 }
-.star:after {
-    position: absolute;
-    display: block;
-    color: red;
-    top: 0;
-    left: -12px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-bottom: 9px solid gold;
-    border-left: 12px solid transparent;
-    transform: rotate(-70deg);
-    content: '';
-}
-.star-white {
-    flex: 25%;
+.nav {
+    font-size: large;
+    padding-bottom: 10px;
+  }
+  .nav li {
+    cursor: pointer;
     position: relative;
-    display: inline-block;
-    color: red;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-bottom: 9px solid #fff;
-    border-left: 12px solid transparent;
-    transform: rotate(35deg);
-}
-.star-white:before {
-    border-bottom: 9px solid #fff;
-    border-left: 4px solid transparent;
-    border-right: 5px solid transparent;
+    text-align: center;
+  }
+  .nav li .active:hover{
+    color: black;
+  }
+  .nav li.active::after {
     position: absolute;
-    height: 0;
-    width: 0;
-    top: -5px;
-    left: -7px;
-    display: block;
-    content: '';
-    transform: rotate(-32deg);
-}
-.star-white:after {
-    position: absolute;
-    display: block;
-    color: red;
-    top: 0;
-    left: -12px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-bottom: 9px solid #fff;
-    border-left: 12px solid transparent;
-    transform: rotate(-70deg);
-    content: '';
-}
-.rating {
-    padding-top: 5px;
-    font-size: 1.3rem;
-}
-.content p{
-    color: #3d4a63;
-    max-width: 95%;
-}
-.content h2{
-    color: #132241;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-.tick {
-    list-style: inside url(../images/tick.png);
-}
-.bullet {
-    list-style: inside url(../images/bullets.svg);
-}
-.content-section ul li {
-    margin-bottom: 1rem;
-}
-@media (min-width: 768px){
-.highlight {
-    column-count: 2;
-}
-}
-
-.testimo {
-    border-top: 2px solid #0ead69;
-    padding: 1rem;
-    margin-right: 1rem;
-}
-.testimo .card-content p{
-    font-size: small !important;
-}
-@media (min-width: 768px){
-.fix-top {
-    position: fixed;
-    right: 2rem;
-    z-index: 2000;
-    top: 4rem;
-}
-}
-@media (min-width: 1330px){
-.fix-top {
-    right: 4rem!important;
-}
-}
-@media (min-width: 768px){
-#formCard {
-    max-width: 23rem;
-}
-}
-.list-inline, .list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
-.steps li {
-    list-style: inside url(../images/tick.png);
-    position: relative;
-    padding: 0 0 1.5rem 2.5rem;
-    color: #000;
-    margin-bottom: 0;
-}
-.steps li:after {
     content: "";
-    background-color: #c7d4ee;
-    position: absolute;
-    top: 1.4rem;
-    left: 0.5rem;
-    width: 1px;
-    margin: 0 0 1.5rem 2.5rem;
-    height: 45%;
-}
+    height: 4px;
+    width: 100%;
+    background-color: #ff105e;
+    left: 0;
+    bottom: -7px;
+    border-radius: 20px;
+    animation: appear 0.2s linear;
+  }
+  @media screen and (max-width:739px) {
+    #formCard{
+        display: none;
+    }
+    .course-content{
+        max-width: 100%;
+        flex-basis: auto;
+    }
+  }
+  @media screen and (max-width:596px) {
+    .course-preview-filter{
+        width: 350px;
+    }
+    iframe{
+        width: 350px;
+    }
+  }
