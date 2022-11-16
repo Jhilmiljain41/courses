@@ -24,14 +24,14 @@ p{
 }
 #formCard{
     position: sticky;
-    top: 80px;
+    top: 77px;
     padding: 60px 32px 25px;
 }
 .banner-section{
     position: relative;
     background: no-repeat center center;
     background-size: 100% 500px;
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/background.png);
     background-position-x: left;
     background-position-y: top;
   }
@@ -77,11 +77,37 @@ p{
         flex-basis: auto;
     }
   }
-  @media screen and (max-width:596px) {
+  @media screen and (max-width:660px) {
     .course-preview-filter{
         width: 350px;
     }
     iframe{
         width: 350px;
     }
+  }
+  .tick {
+    list-style: url(../images/tick.png);
+    margin-bottom: 16px;
+}
+
+  .list-unstyled {
+      padding-left: 0;
+      list-style: none;
+  }
+  .steps li {
+      list-style: inside url(../images/tick.png);
+      position: relative;
+      padding: 0 0 1.5rem 2.5rem;
+      color: #000;
+      margin-bottom: 0;
+  }
+  .steps li:after {
+      content: "";
+      background-color: #c7d4ee;
+      position: absolute;
+      top: 1.4rem;
+      left: 0.5rem;
+      width: 1px;
+      margin: 0 0 1.5rem 2.5rem;
+      height: 45%;
   }
